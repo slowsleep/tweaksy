@@ -1,0 +1,42 @@
+{
+  "name": "tweaksy",
+  "version": "0.1.0",
+  "description": "A modular React UI library with flexible components",
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "require": "./dist/index.js"
+    }
+  },
+  "scripts": {
+    "build": "rollup -c",
+    "watch": "rollup -c -w"
+  },
+  "keywords": [],
+  "author": {
+    "name": "Yana Alekseeva",
+    "url": "https://github.com/slowsleep"
+  },
+  "license": "MIT",
+  "peerDependencies": {
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
+  },
+  "dependencies": {
+    "tslib": "^2.8.1"
+  },
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^28.0.3",
+    "@rollup/plugin-node-resolve": "^16.0.1",
+    "@rollup/plugin-typescript": "^12.1.2",
+    "@types/react": "^19.1.0",
+    "@types/react-dom": "^19.1.1",
+    "rollup": "^4.39.0",
+    "rollup-plugin-peer-deps-external": "^2.2.4",
+    "rollup-plugin-postcss": "^4.0.2",
+    "typescript": "^5.8.3"
+  }
+}
