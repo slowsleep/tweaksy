@@ -1,0 +1,53 @@
+.tw-font {
+    font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+    line-height: 1.5;
+    font-weight: 400;
+}
+
+.tw-dark {
+    background-color: #252525;
+    color: #f8f9fa;
+}
+
+.tw-light {
+    background-color: #e8e8e8;
+    color: #212529;
+}
+
+/* Colors */
+.tw-color-red {
+    --button-color: var(--color-red-7);
+}
+.tw-color-orange {
+    --button-color: var(--color-orange-7);
+}
+.tw-color-yellow {
+    --button-color: var(--color-yellow-7);
+}
+.tw-color-lime {
+    --button-color: var(--color-lime-7);
+}
+.tw-color-green {
+    --button-color: var(--color-green7-);
+}
+.tw-color-cyan {
+    --button-color: var(--color-cyan-7);
+}
+.tw-color-azure {
+    --button-color: var(--color-azure-7);
+}
+.tw-color-blue {
+    --button-color: var(--color-blue-7);
+}
+.tw-color-violet {
+    --button-color: var(--color-violet-7);
+}
+.tw-color-purple {
+    --button-color: var(--color-purple-7);
+}
+.tw-color-fuchsia {
+    --button-color: var(--color-fuchsia-7);
+}
+.tw-color-pink {
+    --button-color: var(--color-pink-7);
+}
