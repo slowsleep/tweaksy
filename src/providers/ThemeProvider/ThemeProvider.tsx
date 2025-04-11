@@ -1,16 +1,16 @@
 import React, { useState } from "react";
 import { Color, Theme } from "../../types";
 import { ThemeContext } from "./ThemeContext";
-import "./TweaksyProvider.css";
+import "./ThemeProvider.css";
 
-interface TweaksyProviderProps {
+interface ThemeProviderProps {
     children: React.ReactNode;
     disableFontStyles?: boolean;
     initialTheme?: Theme;
     initialColor?: Color;
 }
 
-export const TweaksyProvider: React.FC<TweaksyProviderProps> = ({
+export const ThemeProvider: React.FC<ThemeProviderProps> = ({
     children,
     disableFontStyles = false,
     initialTheme = "light",
