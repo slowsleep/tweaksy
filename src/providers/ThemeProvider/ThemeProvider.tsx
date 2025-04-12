@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Color, Theme } from "../../types";
+import { Color, Theme } from "@/types/index";
 import { ThemeContext } from "./ThemeContext";
 import "./ThemeProvider.css";
 

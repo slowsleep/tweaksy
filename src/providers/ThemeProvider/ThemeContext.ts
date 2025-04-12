@@ -1,5 +1,5 @@
-import { createContext} from 'react';
-import { Color, Theme } from "../../types";
+import { createContext } from 'react';
+import { Color, Theme } from "@/types/index";
 
 export interface ThemeContextProps {
     theme: Theme;
