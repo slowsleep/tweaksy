@@ -1,0 +1,37 @@
+.tw-button {
+    border: none;
+    cursor: pointer;
+    padding: 8px 16px;
+    font-weight: 500;
+}
+
+.tw-button:hover {
+    filter: brightness(0.8);
+}
+
+/* Button sizes */
+.tw-button.sm {
+    font-size: 12px;
+    padding: 4px 8px;
+}
+
+.tw-button.md {
+    font-size: 14px;
+}
+
+.tw-button.lg {
+    font-size: 16px;
+    padding: 10px 20px;
+}
+
+/* Variants */
+.tw-button.solid {
+    background-color: var(--button-color);
+    color: white;
+}
+
+.tw-button.outline {
+    background-color: transparent;
+    border: 2px solid var(--button-color);
+    color: var(--button-color);
+}
