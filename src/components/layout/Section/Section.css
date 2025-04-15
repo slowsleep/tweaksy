@@ -1,0 +1,12 @@
+.tw-section {
+    margin: 1rem 0;
+    padding: 1rem;
+    border: 1 px solid;
+}
+
+.tw-section--dark {
+    background-color: var(--section-color-dark);
+}
+.tw-section--light {
+    background-color: var(--section-color-light);
+}
