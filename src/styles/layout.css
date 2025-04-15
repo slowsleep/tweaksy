@@ -1,0 +1,44 @@
+.tw-align-start {
+    align-items: flex-start;
+}
+.tw-align-center {
+    align-items: center;
+}
+.tw-align-end {
+    align-items: flex-end;
+}
+.tw-align-stretch {
+    align-items: stretch;
+}
+
+.tw-justify-start {
+    justify-content: flex-start;
+}
+.tw-justify-center {
+    justify-content: center;
+}
+.tw-justify-end {
+    justify-content: flex-end;
+}
+.tw-justify-space-between {
+    justify-content: space-between;
+}
+.tw-justify-space-around {
+    justify-content: space-around;
+}
+
+.tw-gap-1 {
+    gap: .1em;
+}
+.tw-gap-2 {
+    gap: .5em;
+}
+.tw-gap-3 {
+    gap: 1em;
+}
+.tw-gap-4 {
+    gap: 2em;
+}
+.tw-gap-5 {
+    gap: 3em;
+}
