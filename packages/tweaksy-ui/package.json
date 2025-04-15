@@ -1,5 +1,5 @@
 {
-  "name": "tweaksy",
+  "name": "tweaksy-ui",
   "version": "0.1.0",
   "description": "A modular React UI library with flexible components",
   "main": "dist/index.js",
