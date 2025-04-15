@@ -17,37 +17,61 @@
 /* Colors */
 .tw-color-red {
     --button-color: var(--color-red-7);
+    --section-color-dark: var(--color-red-12);
+    --section-color-light: var(--color-red-1);
 }
 .tw-color-orange {
     --button-color: var(--color-orange-7);
+    --section-color-dark: var(--color-orange-12);
+    --section-color-light: var(--color-orange-1);
 }
 .tw-color-yellow {
     --button-color: var(--color-yellow-7);
+    --section-color-dark: var(--color-yellow-12);
+    --section-color-light: var(--color-yellow-1);
 }
 .tw-color-lime {
     --button-color: var(--color-lime-7);
+    --section-color-dark: var(--color-lime-12);
+    --section-color-light: var(--color-lime-1);
 }
 .tw-color-green {
-    --button-color: var(--color-green7-);
+    --button-color: var(--color-green-7);
+    --section-color-dark: var(--color-green-12);
+    --section-color-light: var(--color-green-1);
 }
 .tw-color-cyan {
     --button-color: var(--color-cyan-7);
+    --section-color-dark: var(--color-cyan-12);
+    --section-color-light: var(--color-cyan-1);
 }
 .tw-color-azure {
     --button-color: var(--color-azure-7);
+    --section-color-dark: var(--color-azure-12);
+    --section-color-light: var(--color-azure-1);
 }
 .tw-color-blue {
     --button-color: var(--color-blue-7);
+    --section-color-dark: var(--color-blue-12);
+    --section-color-light: var(--color-blue-1);
 }
 .tw-color-violet {
     --button-color: var(--color-violet-7);
+    --section-color-dark: var(--color-violet-12);
+    --section-color-light: var(--color-violet-1);
 }
 .tw-color-purple {
     --button-color: var(--color-purple-7);
+    --section-color-dark: var(--color-purple-12);
+    --section-color-light: var(--color-purple-1);
 }
 .tw-color-fuchsia {
     --button-color: var(--color-fuchsia-7);
+    --section-color-dark: var(--color-fuchsia-12);
+    --section-color-light: var(--color-fuchsia-1);
 }
 .tw-color-pink {
     --button-color: var(--color-pink-7);
+    --section-color-dark: var(--color-pink-12);
+    --section-color-light: var(--color-pink-1);
 }
