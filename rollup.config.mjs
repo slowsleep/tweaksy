@@ -5,13 +5,16 @@ import commonjs from '@rollup/plugin-commonjs';
 import peerDepsExternal from 'rollup-plugin-peer-deps-external';
 
 export default {
-  input: 'src/index.ts',
+  input: {
+    index:'src/index.ts',
+    layout: 'src/components/layout/index.ts',
+    form: 'src/components/form/index.ts',
+  },
   output: [
     {
-      file: 'dist/index.js',
+      dir: 'dist',
       format: 'esm',
-      sourcemap: true,
-    }
+    },
   ],
   plugins: [
     peerDepsExternal(),
