@@ -1,0 +1,10 @@
+.color-box {
+    width: 100%;
+    height: 32px;
+    border-radius: 4px;
+}
+
+.color-label {
+    font-size: 14px;
+    font-family: monospace;
+}
