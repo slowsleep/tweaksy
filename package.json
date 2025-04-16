@@ -1,0 +1,18 @@
+{
+    "name": "monorepo",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "tweaksy:build": "pnpm --filter tweaksy-ui build",
+      "tweaksy:watch": "pnpm --filter tweaksy-ui watch",
+      "play:dev": "pnpm --filter playground dev"
+    },
+    "keywords": [],
+    "author": {
+        "name": "Yana Alekseeva",
+        "url": "https://github.com/slowsleep"
+    },
+    "license": "MIT",
+    "packageManager": "pnpm@10.8.1"
+}
