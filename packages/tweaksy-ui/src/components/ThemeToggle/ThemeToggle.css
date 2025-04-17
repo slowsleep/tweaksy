@@ -1,0 +1,18 @@
+.tw-theme-icon {
+    color: gray;
+    background-color: transparent;
+}
+
+.tw-sun-icon:hover {
+    color: #f39c12;
+}
+
+.tw-moon-icon:hover {
+    color: #2c3e50;
+}
+
+.tw-theme-toggle {
+    border: none;
+    cursor: pointer;
+    background-color: transparent;
+}
