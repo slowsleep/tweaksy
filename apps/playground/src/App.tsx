@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { colors, ColorType } from "tweaksy-ui";
+import { colors, ColorType, ThemeToggle } from "tweaksy-ui";
 import { Flex, Grid, Container, Section } from "tweaksy-ui/layout";
 import { Button, Input, Label } from "tweaksy-ui/form";
 import "./App.css";
@@ -10,6 +10,7 @@ function App() {
 
     return (
         <Container size="sm">
+            <ThemeToggle/>
             <div className="card">
                 <h2>Colors</h2>
                 <Flex direction="col">
