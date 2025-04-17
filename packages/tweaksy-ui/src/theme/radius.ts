@@ -6,4 +6,4 @@ export const radius = [
     "full",
 ] as const;
 
-export type Radius = typeof radius[number];
+export type RadiusType = typeof radius[number];

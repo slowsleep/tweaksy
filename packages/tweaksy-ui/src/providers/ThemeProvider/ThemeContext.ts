@@ -1,13 +1,13 @@
 import { createContext } from 'react';
-import { Color, Theme, Radius } from "@/types/index";
+import { ColorType, ThemeType, RadiusType } from "@/theme/index";
 
 export interface ThemeContextProps {
-    theme: Theme;
-    color: Color;
-    radius: Radius;
-    setTheme: (theme: Theme) => void;
-    setColor: (color: Color) => void;
-    setRadius: (radius: Radius) => void;
+    theme: ThemeType;
+    color: ColorType;
+    radius: RadiusType;
+    setTheme: (theme: ThemeType) => void;
+    setColor: (color: ColorType) => void;
+    setRadius: (radius: RadiusType) => void;
 }
 
 export const ThemeContext = createContext<ThemeContextProps | undefined>(undefined);

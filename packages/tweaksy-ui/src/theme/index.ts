@@ -1,3 +1,3 @@
-export { Color, colors } from './color';
-export { Theme } from './theme';
-export { Radius } from './radius';
+export * from './color';
+export * from './theme';
+export * from './radius';

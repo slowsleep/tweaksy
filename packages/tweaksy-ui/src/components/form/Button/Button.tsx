@@ -1,7 +1,7 @@
 import React from "react";
 import "./Button.css";
 import { useTheme } from "@/providers/ThemeProvider/useTheme";
-import { Color } from "@/types/index";
+import { ColorType } from "@/theme/index";
 
 type ButtonProps = {
     children: React.ReactNode;
@@ -9,7 +9,7 @@ type ButtonProps = {
     className?: string;
     disabled?: boolean;
     size?: "sm" | "md" | "lg";
-    customColor?: Color;
+    customColor?: ColorType;
     variant?: "solid" | "outline";
     shadow?: "none" | "sm" | "md" | "lg";
     [key: string]: any;

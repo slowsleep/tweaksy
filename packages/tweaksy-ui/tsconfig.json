@@ -6,7 +6,6 @@
       "@/providers/*": ["src/providers/*"],
       "@/styles/*": ["src/styles/*"],
       "@/theme/*": ["src/theme/*"],
-      "@/types/*": ["src/types/*"],
     },
     "target": "ESNext",
     "module": "ESNext",
