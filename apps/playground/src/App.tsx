@@ -1,10 +1,9 @@
 import React, { useState } from "react";
-import "./App.css";
-import { Flex, Grid } from "tweaksy-ui/layout";
+import { colors, ColorType } from "tweaksy-ui";
+import { Flex, Grid, Container, Section } from "tweaksy-ui/layout";
 import { Button, Input, Label } from "tweaksy-ui/form";
+import "./App.css";
 import { ColorBox } from "./components/ColorBox/ColorBox";
-import { colors, Color } from "tweaksy-ui";
-import { Container, Section } from "tweaksy-ui/layout";
 
 function App() {
     const [text, setText] = useState("");
@@ -23,7 +22,7 @@ function App() {
                                 {[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12].map((shade) => (
                                     <ColorBox
                                         key={shade}
-                                        color={color as Color}
+                                        color={color as ColorType}
                                         shade={shade}
                                         title={`${color}-${shade}`}
                                     />
