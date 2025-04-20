@@ -1,7 +1,7 @@
 import React from "react";
 import "./Button.css";
 import { useTheme } from "@/providers/ThemeProvider/useTheme";
-import { ColorType } from "@/theme/index";
+import { ColorType, RadiusType } from "@/theme/index";
 
 type ButtonProps = {
     children: React.ReactNode;
@@ -9,9 +9,10 @@ type ButtonProps = {
     className?: string;
     disabled?: boolean;
     size?: "sm" | "md" | "lg";
-    customColor?: ColorType;
     variant?: "solid" | "outline";
     shadow?: "none" | "sm" | "md" | "lg";
+    customColor?: ColorType;
+    customRadius?: RadiusType;
     [key: string]: any;
 };
 
@@ -21,20 +22,30 @@ export const Button: React.FC<ButtonProps> = ({
     className = "",
     disabled = false,
     size = "md",
-    customColor,
     variant = "solid",
     shadow = "none",
+    customColor,
+    customRadius,
     ...props
 }) => {
     const { theme, color, radius } = useTheme();
+    let radiusClass: String = radius;
+
+    if (customRadius !== undefined) {
+        if (customRadius !== "none") {
+            radiusClass = customRadius;
+        } else {
+            radiusClass = "";
+        }
+    }
 
     let classes =  `
         tw-button
         ${size}
         ${variant}
-        tw-radius-${radius}
-        ${shadow !== "none" ? "tw-shadow-" + shadow : ""}
         tw-${theme}
+        ${radiusClass !== "" ? "tw-radius-" + radiusClass : ""}
+        ${shadow !== "none" ? "tw-shadow-" + shadow : ""}
         tw-color-${customColor || color}
         ${className}
     `.trim();
