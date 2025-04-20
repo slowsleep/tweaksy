@@ -87,36 +87,36 @@ function App() {
                         </Button>
                     </Flex>
 
-                    <h3>Rounded</h3>
+                    <h3>Custom rounded</h3>
                     <Flex direction="row" justify="center" gap="3">
                         <Label htmlFor="btn-rounded-none">
                             Button rounded none{" "}
                         </Label>
-                        <Button id="btn-rounded-none" radius="none">
+                        <Button id="btn-rounded-none" customRadius="none">
                             rounded
                         </Button>
                     </Flex>
                     <Flex direction="row" justify="center" gap="3">
                         <Label htmlFor="btn-rounded-sm">Button rounded sm</Label>
-                        <Button id="btn-rounded-sm" radius="sm">
+                        <Button id="btn-rounded-sm" customRadius="sm">
                             rounded
                         </Button>
                     </Flex>
                     <Flex direction="row" justify="center" gap="3">
                         <Label htmlFor="btn-rounded-md">Button rounded md</Label>
-                        <Button id="btn-rounded-md" radius="md">
+                        <Button id="btn-rounded-md" customRadius="md">
                             rounded
                         </Button>
                     </Flex>
                     <Flex direction="row" justify="center" gap="3">
                         <Label htmlFor="btn-rounded-lg">Button rounded lg</Label>
-                        <Button id="btn-rounded-lg" radius="lg">
+                        <Button id="btn-rounded-lg" customRadius="lg">
                             rounded
                         </Button>
                     </Flex>
                     <Flex direction="row" justify="center" gap="3">
                         <Label htmlFor="btn-rounded-full">Button rounded full</Label>
-                        <Button id="btn-rounded-full" radius="full">
+                        <Button id="btn-rounded-full" customRadius="full">
                             rounded
                         </Button>
                     </Flex>
