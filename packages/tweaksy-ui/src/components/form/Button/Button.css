@@ -26,12 +26,24 @@
 
 /* Variants */
 .tw-button.solid {
-    background-color: var(--button-color);
     color: white;
+}
+
+.tw-button.solid.tw-dark {
+    background-color: var(--button-color-dark);
+}
+.tw-button.solid.tw-light {
+    background-color: var(--button-color-light);
 }
 
 .tw-button.outline {
     background-color: transparent;
-    border: 2px solid var(--button-color);
-    color: var(--button-color);
+}
+.tw-button.outline.tw-dark {
+    border: 2px solid var(--button-color-dark);
+    color: var(--button-color-dark);
+}
+.tw-button.outline.tw-light {
+    border: 2px solid var(--button-color-light);
+    color: var(--button-color-light);
 }
